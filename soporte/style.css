@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+html{
+    min-height: 100%;
+    overflow: hidden;
+    height: 100%;
+
+    
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: 0.25s ease-out 0s 1 fadeInAnimation;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(33, 26, 133, 0.838) 100%);
+    overflow: auto;
+    height: 100%;
+}
+
+
+
+nav{
+    width: 100%;
+}
+
+
+ /* contenido del nav */
+.container1{
+    background-image: url(../images/XiP3qS0.jpg);
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    gap: 250px;
+    flex-wrap:nowrap;
+    width:100%;
+    font-size: 25px;
+
+}
+.alink{
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: center;
+    background-size: cover;
+    background: scroll;
+    height: inherit;
+    border-radius: 10px;
+    align-items: center;
+    
+    
+}
+
+.alink:hover{
+    background-color:rgb(90, 94, 224);
+    cursor: pointer;
+}
+
+
+/* subtitulo 1 y alineación de elemento*/
+.FAQ{
+    display: flex;
+    text-align: center;
+    justify-content: center
+}
+.FAQ h1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+
+/* accordion */
+.accordion {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #868ec99e;
+    background-size: 50%;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    }
+  
+
+.active, .accordion:hover {
+    background-color: #748fe7a8;
+  }
+  
+.panel {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    }
+.panel p{
+    text-align: center;
+    min-height: 100%;
+    min-width: 100%;
+    background: rgb(255,255,255);
+    background-color: #868ec99e;
+}
+
+
+@media (max-width: 1366px){
+
+    .FAQ h1{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+}
+@media (max-width: 1920px){
+
+    .FAQ h1{
+        font-size: 30px;
+        margin-top: 120px;
+        margin-bottom: 80px;
+    }
+}

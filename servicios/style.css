@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+html{
+    min-height: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: 0.25s ease-out 0s 1 fadeInAnimation;    
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(33, 26, 133, 0.838) 100%);
+    overflow: auto;
+    height: 100%;
+}
+
+
+nav{
+    width: 100%;
+}
+
+/* nav children style */
+.container1{
+    background-image: url(../images/XiP3qS0.jpg);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    gap: 250px;
+    flex-wrap:nowrap;
+    width:100%;
+    font-size: 25px;
+
+}
+.alink{
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: center;
+    background-size: cover;
+    background: scroll;
+    height: inherit;
+    border-radius: 10px;
+    align-items: center;
+    
+    
+    
+}
+
+.alink:hover{
+    background-color:rgb(90, 94, 224);
+    cursor: pointer;
+}
+
+/* subtitulos */
+.first-message{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.first-message a{
+    text-decoration: none;
+    color: rgb(0, 0, 129);
+}
+.first-message h1{
+    margin-top: 60px;
+}
+.first-message h3{
+    margin-top: 60px;
+}
+.team-container{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+}
+
+
+/* contenedor tarjetas y tarjetas */
+div#contenedor-tarjetas{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    
+}
+.tarjetas{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    background-color:  #9785ff9d;
+    border-radius: 10px;
+    align-items: center;
+}
+.tarjetas p{
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.tarjetas img{
+
+    
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    height: 200px;
+    width: 200px;
+    
+}
+.tarjetas button{
+
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(133, 106, 255, 0.589) ;
+    margin-top: 30px;
+    width: 60%;
+    height: 10%;
+}
+.tarjetas button:hover{
+    cursor: pointer;
+    background-color: rgba(161, 140, 255, 0.705) ;
+
+}
+div#comida{
+    display: flex;
+    gap: 80px;
+}
+
+
+
+
+@media (max-width: 1360px){
+
+    .first-message{
+        margin-top: 100px;
+
+    }
+
+    .team-container{
+
+        width: 100%;
+        
+        
+    }
+
+
+}
+
+@media (min-width: 1920px){
+
+    .first-message{
+        margin-top: 40px;
+
+    }
+
+    .team-container{
+        width: 100%;
+        
+        
+    }
+
+
+
+}
+   
+   

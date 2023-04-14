@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+html{
+    min-height: 100%;
+    overflow: hidden;
+    height: 100%;
+
+    
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: 0.25s ease-out 0s 1 fadeInAnimation;    
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(33, 26, 133, 0.838) 100%);
+    overflow: auto;
+    height: 100%;
+}
+
+
+nav{
+    width: 100%;
+}
+
+
+
+/* nav children style*/
+.container1{
+    background-image: url(/images/XiP3qS0.jpg);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    gap: 250px;
+    flex-wrap:nowrap;
+    width:100%;
+    font-size: 25px;
+
+}
+.alink{
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: center;
+    background-size: cover;
+    background: scroll;
+    height: inherit;
+    border-radius: 10px;
+    align-items: center;
+    
+    
+}
+
+.alink:hover{
+    background-color:rgb(90, 94, 224);
+    cursor: pointer;
+}
+
+
+
+/* subtitulos */
+.first-message{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: black ;
+}
+.first-message h1{
+    margin-top: 60px;
+    color: black;
+}
+.first-message h3{
+    margin-top: 60px;
+    color: black;
+}
+.homepage{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.homepage p{
+    align-items: center;
+    width: 50%;
+    color: black;
+}
+
+
+
+/* seccion de contactar */
+.contactanos{
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    margin-right: 150px;
+}
+.contactanos a{
+    
+    margin-top: 10px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+}
+.social a{
+    text-decoration: none;
+}
+.contact-info{
+    margin-top: 50px;
+}
+.contact-info-container img{
+    height: 50px;
+}
+.team-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 100px;
+}
+.team-container img{
+    width: 100%;
+}
+@media (max-width: 1366px){
+
+    .homepage p{
+
+        width: 50%;
+    }
+    .first-message h1{
+        margin-top: 60px;
+    }
+    .first-message h3{
+        margin-top: 60px;
+    }
+    .homepage{
+        margin-top: 20px;
+
+    }
+}
+@media (max-width: 1920px){
+
+    .homepage p{
+        width: 30%;
+    }
+    .first-message h1{
+        margin-top: 80px;
+    }
+    .first-message h3{
+        margin-top: 80px;
+    }
+    .homepage{
+        
+        margin-top: 30px;
+
+    }
+}
+   
+   
