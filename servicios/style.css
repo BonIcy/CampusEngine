@@ -94,7 +94,16 @@ nav{
     gap: 3rem;
     justify-content: center;
 }
-
+.textitos{
+    padding-top: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textitos h1{
+    font-size: 2rem;
+}
 
 /* contenedor tarjetas y tarjetas */
 div#contenedor-tarjetas{

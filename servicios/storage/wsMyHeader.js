@@ -1,6 +1,6 @@
 let wsMyHeader= {
     listImg(p1){
-        return `<img id="${p1.imagee.id}" src="${p1.imagee.name}" alt="">`
+        return `<img id="${p1.imagee.id}" src="${p1.imagee.name2}" alt="">`
     },
     listItems(p1){
         let plantilla = "";

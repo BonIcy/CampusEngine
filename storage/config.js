@@ -3,19 +3,20 @@ export default {
         localStorage.setItem("myHeader", JSON.stringify({
                 image: {
                     imagee:{
-                    name:"/images/logoWhite.png",
+                    name:"images/logoWhite.png",
+                    name2:"../images/logoWhite.png",
                     id:"logo"},
                  },
                 headers:[
                 {name:"Inicio",
                 class:"alink",
-                href:"./servicios/index.html"},
+                href:"/index.html"},
                 {name:"Servicios",
                 class:"alink",
                 href:"/servicios/index.html"},
                 {name:"Soporte",
                 class:"alink",
-                href:"./servicios/index.html"}
+                href:"/soporte/index.html"}
             ]
         }))
     },
@@ -39,5 +40,5 @@ export default {
                 }
             }
         }))
-    }
+    },
 }
