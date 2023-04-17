@@ -161,8 +161,158 @@ div#comida{
     gap: 80px;
 }
 
+/* Estilos para el modal */
+.modal {
+    display: none; /* oculta el modal por defecto */
+    position: fixed; /* posición fija en la pantalla */
+    z-index: 1; /* coloca el modal por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* permite desplazamiento en pantallas pequeñas */
+    background-color: rgba(0, 0, 0, 0.4); /* agrega un fondo oscuro semitransparente */
+  }
+  
+  /* Estilos para el contenido del modal */
+  .modal-contenido {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* Estilos para el botón de cerrar */
+  .cerrar {
+    color: rgb(116, 2, 26);
+    float: right;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  
+  .cerrar:hover,
+  .cerrar:focus {
+    color: rgb(177, 74, 74);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
 
 
+/* Estilos para el modal */
+.modal2 {
+    display: none; /* oculta el modal por defecto */
+    position: fixed; /* posición fija en la pantalla */
+    z-index: 1; /* coloca el modal por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* permite desplazamiento en pantallas pequeñas */
+    background-color: rgba(0, 0, 0, 0.4); /* agrega un fondo oscuro semitransparente */
+  }
+  
+  /* Estilos para el contenido del modal */
+  .modal-contenido2 {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* Estilos para el botón de cerrar */
+  .cerrar2 {
+    color: rgb(116, 2, 26);
+    float: right;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  
+  .cerrar2:hover,
+  .cerrar2:focus {
+    color: rgb(177, 74, 74);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+/* Estilos para el modal */
+.modal3{
+    display: none; /* oculta el modal por defecto */
+    position: fixed; /* posición fija en la pantalla */
+    z-index: 1; /* coloca el modal por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* permite desplazamiento en pantallas pequeñas */
+    background-color: rgba(0, 0, 0, 0.4); /* agrega un fondo oscuro semitransparente */
+  }
+  
+  /* Estilos para el contenido del modal */
+  .modal-contenido3 {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* Estilos para el botón de cerrar */
+  .cerrar3 {
+    color: rgb(116, 2, 26);
+    float: right;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  
+  .cerrar3:hover,
+  .cerrar3:focus {
+    color: rgb(177, 74, 74);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+/* Estilos para el modal */
+.modal4 {
+    display: none; /* oculta el modal por defecto */
+    position: fixed; /* posición fija en la pantalla */
+    z-index: 1; /* coloca el modal por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* permite desplazamiento en pantallas pequeñas */
+    background-color: rgba(0, 0, 0, 0.4); /* agrega un fondo oscuro semitransparente */
+  }
+  
+  /* Estilos para el contenido del modal */
+  .modal-contenido4 {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* Estilos para el botón de cerrar */
+  .cerrar4 {
+    color: rgb(116, 2, 26);
+    float: right;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  
+  .cerrar4:hover,
+  .cerrar4:focus {
+    color: rgb(177, 74, 74);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
 
 @media (max-width: 1360px){
 

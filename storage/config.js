@@ -41,4 +41,39 @@ export default {
             }
         }))
     },
+    dataMyContact(){
+        localStorage.setItem("myContact", JSON.stringify({
+            image:{
+                imagee:{
+                    src:"images/Space astronaut cartoon.png"
+                },
+            },
+            cont:{
+                conta:{
+                    name:"¡Contactanos!"
+                }
+            },
+            social:[
+                    {class:"social",
+                    logo:"images/whatsapp.svg",
+                    a:"+57 3116607659",
+                    ahref:"#"},
+
+                    {class:"social",
+                    logo:"images/twitter.svg",
+                    a:"@CampusLatam",
+                    ahref:"#"},
+
+                    {class:"social",
+                    logo:"images/facebookF.svg",
+                    a:"@Campusland",
+                    ahref:"#"},
+
+                    {class:"social",
+                    logo:"images/instagram.svg",
+                    a:"@campusdevelopers",
+                    ahref:"#"},
+            ]
+        }))
+    }
 }

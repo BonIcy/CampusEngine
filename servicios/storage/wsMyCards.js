@@ -11,7 +11,7 @@ let wsMyCards= {
             <div class="${val.clase}">
             <p>${val.parrafo}</p>
             <img src="${val.img}" alt="">
-            <button>${val.btn}</button>
+            <button id="${val.btnId}">${val.btn}</button>
         </div>`
         });
         return plantilla;
