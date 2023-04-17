@@ -71,7 +71,8 @@ nav{
 .FAQ{
     display: flex;
     text-align: center;
-    justify-content: center
+    justify-content: center;
+    border-bottom: 5px solid white;
 }
 .FAQ h1{
     font-size: 30px;
@@ -130,3 +131,22 @@ nav{
         margin-bottom: 80px;
     }
 }
+
+.accordion {
+    border: 1px solid #ccc;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .accordion-header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    display: none;
+  }
